@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Ron Mavin | Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<header class="topbar">
+  <div class="brand">RMN</div>
+
+  <nav class="menu">
+    <a href="#personal" class="active">Personal</a>
+    <a href="#skills">Skills</a>
+    <a href="#education">Education</a>
+    <a href="#experience">Experience</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <button class="mode-btn" onclick="toggleTheme()">☀️ / 🌙</button>
+</header>
+
+<section class="intro">
+  <div class="photo">
+    <img src="assets/formal picture.jpg" alt="Profile Photo">
+  </div>
+
+  <div class="intro-text">
+    <h1>Hello, I'm <span>Ron Mavin M Neri</span></h1>
+    <h4>About Me</h4>
+    <p>
+      I am a second-year Information Technology student at Quezon City University
+      with a strong interest in networking, analysis, and hands-on technical
+      problem solving. I aim to continuously grow my skills and build a solid
+      foundation for my IT career.
+    </p>
+  </div>
+</section>
+
+<section class="info-section" id="personal">
+  <h2 class="section-title">Personal</h2>
+  
+  <div class="info-grid">
+
+    <!-- PERSONAL INFO YAN BOY -->
+    <div class="info-card">
+      <h3>Personal Information</h3>
+
+      <div class="info-row">
+        <span class="label">Full Name</span>
+        <span class="value">Ron Mavin M. Neri</span>
+      </div>
+
+      <div class="info-row">
+        <span class="label">Age</span>
+        <span class="value">20 Years Old</span>
+      </div>
+
+      <div class="info-row">
+        <span class="label">Location</span>
+        <span class="value">Quezon City, Philippines</span>
+      </div>
+
+      <div class="info-row">
+        <span class="label">Email</span>
+        <span class="value">ronmavin@email.com</span>
+      </div>
+
+      <div class="info-row">
+        <span class="label">Civil Status</span>
+        <span class="value">Single</span>
+      </div>
+    </div>
+
+    <!-- HOBBIES YAN BOY -->
+    <div class="info-card">
+      <h3>Hobbies</h3>
+
+      <ul class="hobby-list">
+        <li>💻 Watching Anime</li>
+        <li>🏍️ Motorcycle</li>
+        <li>🎮 Casual Gaming</li>
+        <li>🏐 Volleyball</li>
+        <li>🔍 Exploring New Things</li>
+      </ul>
+    </div>
+
+  </div>
+</section>
+
+<!-- SKILLS YAN BOI -->
+<section class="skills-section" id="skills">
+  <h2 class="section-title">Skills</h2>
+
+  <div class="skills-grid">
+    <div class="skill-item">
+      <div class="skill-card">
+        <span>HTML / CSS</span>
+        <div class="bar">
+          <div class="fill" style="width: 30%;"></div>
+        </div>
+      </div>
+      <p class="skill-desc">Experienced in semantic HTML, CSS Flexbox, Grid, 
+        and responsive design principles.</p>
+    </div>
+
+    <div class="skill-item">
+      <div class="skill-card">
+        <span>VB.Net</span>
+        <div class="bar">
+          <div class="fill" style="width: 50%;"></div>
+        </div>
+      </div>
+      <p class="skill-desc">Learned from OOP last semester and with database management</p>
+    </div>
+
+    <div class="skill-item">
+      <div class="skill-card">
+        <span>Networking</span>
+        <div class="bar">
+          <div class="fill" style="width: 60%;"></div>
+        </div>
+      </div>
+      <p class="skill-desc">Using Cisco Packet Tracer for Network Simulation and 
+        have a little experience on actual networking using Raspbery Pi + Router
+      </p>
+    </div>
+
+    <div class="skill-item">
+      <div class="skill-card">
+        <span>Java</span>
+        <div class="bar">
+          <div class="fill" style="width: 25%;"></div>
+        </div>
+      </div>
+      <p class="skill-desc">Basic understanding of Java syntax, variables, loops, 
+        arrays, and control structures</p>
+    </div>
+
+    <div class="skill-item">
+      <div class="skill-card">
+        <span>MySQL</span>
+        <div class="bar">
+          <div class="fill" style="width: 35%;"></div>
+        </div>
+      </div>
+      <p class="skill-desc">Working knowledge of MySQL including CRUD 
+        operations and basic error handling.</p>
+    </div>
+
+    <div class="skill-item">
+      <div class="skill-card">
+        <span>UI/UX</span>
+        <div class="bar">
+          <div class="fill" style="width: 45%;"></div>
+        </div>
+      </div>
+      <p class="skill-desc">Creating user-friendly interfaces and 
+        design mockups with analysis</p>
+    </div>
+  </div>
+</section>
+
+<!-- EDUCATION YAN BOIII -->
+<section class="education-section" id="education">
+  <h2 class="section-title">Education</h2>
+
+  <div class="education-card">
+    <h3>
+      <span>Quezon City University</span>
+      <span class="year">2024 – Present</span>
+    </h3>
+    <p class="degree">Bachelor of Science in Information Technology</p>
+    <p class="desc">
+      673 Quirino Highway, San Bartolome, Novaliches, Quezon City
+    </p>
+  </div>
+
+  <div class="education-card">
+    <h3>
+      <span>Our Lady of Fatima University - Quezon City</span>
+      <span class="year">2022 – 2024</span>
+    </h3>
+    <p class="degree">SHS - Accountancy, Business, and Management</p>
+    <p class="desc">
+      #1 Esperanza Street Hilltop Mansion Subdivision Lagro, Quezon City
+    </p>
+  </div>
+
+  <div class="education-card">
+    <h3>
+      <span>Commonwealth High School</span>
+      <span class="year">2018 – 2022</span>
+    </h3>
+    <p class="degree">Grade 7 to Grade 10</p>
+    <p class="desc">
+      Ecol Street, Barangay Commonwealth, Quezon City, 1121, Metro Manila, Philippines
+    </p>
+  </div>
+
+  <div class="education-card">
+    <h3>
+      <span>Manuel Luis Quezon Elementary School</span>
+      <span class="year">2012 – 2018</span>
+    </h3>
+    <p class="degree">Grade 1 to Grade 6</p>
+    <p class="desc">
+      MRB Compound, Pilot Drive, Commonwealth, Quezon City
+    </p>
+  </div>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
